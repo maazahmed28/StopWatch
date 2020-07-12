@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link  href="image/stopwatch-icon.jpg" rel="shortcut icon" >
+    <link href="style.css" rel="StyleSheet">
+    <link href="bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="StyleSheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row pt-3 mt-3">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-1 mt-3 text-center" >
+                  <p class="font">STOP WATCH</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row pt-3 mt-3 text-center ">
+            <div class="col-sm-10 col-md-10 col-lg-6 col-xl-6 m-auto p-auto mb-1 mt-1 text-center bg" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-1 mt-3 pt-2 text-center" >
+                            <div>
+                                <h1 id="min">0</h1>
+                                <h1 id="sec">0</h1>
+                                <h1 id="msec">0</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-1 text-center" >
+                            <div>
+                                <h4>Min</h4>
+                                <h4>Sec</h4>
+                                <h4>Milli Sec</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3 mt-3 text-center" >
+                            <div class="m-2 p-2">
+                                <button onclick="start()" id="disablebtn">Start</button>
+                                <button onclick="stop()">Stop</button>
+                                <button onclick="reset()">Reset</button>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class=" mt-5 pt-4">
+        <div class="copyrights">
+            <div class="container mt-4 pt-4">
+                <div class="row  footer-bg">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center ">
+                        <p  class="footer-company-name" style="font-weight: bolder; color: rgb(240, 233, 233)";>All Rights Reserved. &copy; 2020 <a style=" font-weight: bolder; color: rgb(240, 233, 233);" href="#">StopWatch</a> Design By : 
+                        <p">Maaz Ahmed Shaikh</p>
+                    </div>
+                </div>
+            </div>
+           </div> 
+        </footer>
+
+    
+    
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,54 @@
+body{
+
+    text-align: center !important;
+    background-image: url("image/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    
+    }
+h1{
+    color: #000;
+    display: inline-block;
+    width: 100px;
+    background: rgba(255, 255, 255, 0.89);
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    border-radius: 10px !important;
+
+    
+}
+h4{
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    border-radius: 10px !important;
+
+    
+}
+button{
+    
+    color: #000;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 30px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    outline: none !important;
+    background: rgba(255, 255, 255, 0.89);
+    padding: 3px 2px !important;
+}
+.font{
+    color: rgb(223, 221, 221);
+    font-weight: bolder !important;
+    font-size: 58px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.bg{
+    background: darkslategray !important;
+    background: linear-gradient(to right,darkslategray, rgb(59, 110, 110), rgb(103, 189, 189) ) !important;
+    border-radius: 20px;
+
+}
+
